@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.grev;
+})();
 })();
 </script>
 ```
@@ -158,6 +160,7 @@ grev.ndarray( 3, x, 1, x.length-3 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {.factory;
 var Float64Array = require( '@stdlib/array-float64' );
 var gfillBy = require( '@stdlib/blas-ext-base-gfill-by' );
@@ -169,6 +172,7 @@ console.log( x );
 grev( x.length, x, 1 );
 console.log( x );
 
+})();
 })();
 </script>
 </body>
@@ -265,11 +269,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/umd
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev/tree/umd
+[@stdlib/blas/ext/base/drev]: https://github.com/stdlib-js/blas-ext-base-drev/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev/tree/umd
+[@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev/tree/umd/tree/umd
 
 </section>
 
