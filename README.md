@@ -31,13 +31,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-grev/tags). For example,
+
+```javascript
 import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.0.10-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.0.10-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@deno/mod.js';
 ```
 
 #### grev( N, x, stride )
@@ -138,7 +143,7 @@ grev.ndarray( 3, x, 1, x.length-3 );
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import gfillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@deno/mod.js';
-import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.0.10-deno/mod.js';
+import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@deno/mod.js';
 
 var x = gfillBy( 10, new Float64Array( 10 ), 1, discreteUniform( -100, 100 ) );
 console.log( x );
