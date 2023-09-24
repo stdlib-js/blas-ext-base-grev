@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@esm/index.mjs';
+import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.1.0-esm/index.mjs';
 ```
 
 #### grev( N, x, stride )
@@ -154,7 +154,7 @@ grev.ndarray( 3, x, 1, x.length-3 );
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import gfillBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-by@esm/index.mjs';
-import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@esm/index.mjs';
+import grev from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-grev@v0.1.0-esm/index.mjs';
 
 var x = gfillBy( 10, new Float64Array( 10 ), 1, discreteUniform( -100, 100 ) );
 console.log( x );
