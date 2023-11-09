@@ -264,6 +264,10 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas-ext-base-srev
 
+<!-- <related-links> -->
+
+<!-- </related-links> -->
+
 </section>
 
 <!-- /.links -->
