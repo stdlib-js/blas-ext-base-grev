@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-06-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`721033e`](https://github.com/stdlib-js/stdlib/commit/721033eede9b3a4667728f40695d933f49f541c1) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`efadfe5`](https://github.com/stdlib-js/stdlib/commit/efadfe575cea2d97f30b2994691c5a7c43e8d838) - **bench:** refactor array generation _(by Athan Reines)_
 -   [`ea9e425`](https://github.com/stdlib-js/stdlib/commit/ea9e42538dd6342bf5c02c2d7c68aa1eae3b15d6) - **refactor:** update `blas/ext/base/grev` to follow current project conventions [(#4659)](https://github.com/stdlib-js/stdlib/pull/4659) _(by Muhammad Haris)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
@@ -26,10 +27,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
